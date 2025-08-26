@@ -6,8 +6,944 @@
     <title>QuickMart</title>
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <style>
+        .ps5{
+            background-image: url(imgs/img17.png);
+            width: 400px;
+            height: 400px;
+            background-position: center;
+            background-size: cover;
+            color: white;
+             border-radius: 5px;
+        }
+
+        .Women {
+            background-image: url(imgs/img18.png);
+            width: 400px;
+            height: 230px;
+            background-position: center;
+            background-size: cover;
+            color: white;
+             border-radius: 5px;
+        }
+
+        .spker  {
+            background-image: url(imgs/img20.png);
+            width: 200px;
+            height: 160px;
+            background-position: center;
+            background-size: cover;
+            color: white;
+             border-radius: 5px;
+        }
+
+        .perfome {
+            background-image: url(imgs/img21.png);
+            width: 190px;
+            height: 160px;
+            background-position: center;
+            background-size: cover;
+            color: white;
+            border-radius: 5px;
+        }
+    </style>
 </head>
+
 <body>
-    
+    <div class=" bg-black w-[100%] text-white flex justify-center p-[6px] pl-[200px] ">
+        <p>Summer Sale For All Swim Suits And Free Express Delivery - OFF 50%! <a href="#">ShopNow</a></p>
+        <select name="" id="" class=" b-0 ml-[100px]">
+            <option class=" text-black" value="English">English</option>
+            <option class=" text-black" value="Arabic">Arabic</option>
+            <option class=" text-black" value="Spanish">Spanish</option>
+        </select>
+    </div>
+
+    <!-- header page start -->
+
+    <header class=" flex justify-between items-center px-[5rem] pt-[10px]">
+        <h1 class=" text-[1.4rem] font-semibold">QuickMart</h1>
+        <ul class=" flex gap-[2rem]">
+            <li><a class=" font-semibold" href="index.html">Home</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">about</a></li>
+            <li><a href="singup.html">Sing Up</a></li>
+        </ul>
+        <div class="">
+            <input style="border: 1px solid rgb(61, 61, 61); border-radius: 2px; "  type="search" name="" id="" placeholder="What are you looking for?">
+            <i style="font-size: 18px;" class="fa-regular fa-heart"></i>
+            <i style="font-size: 18px;" class="fa-solid fa-cart-shopping"></i>
+        </div>
+    </header>
+     <!-- header page end -->
+
+     <!-- hero page start -->
+      <div class=" flex gap-[9rem] pl-[40px] pt-[30px]">
+
+        <div class=" border-r border-solid boder-[1px] border-gray-300 p-[20px]">
+            <ul>
+                <li class="text-[15px] mt-[6px]">Woman’s Fashion <i class="fa-solid fa-caret-right"></i></li>
+                <li class="text-[15px] mt-[6px]">Men’s Fashion <i class="fa-solid fa-caret-right"></i></li>
+                <li class="text-[15px] mt-[6px]">Electronics</li>
+                <li class="text-[15px] mt-[6px]">Home & Lifestyle</li>
+                <li class="text-[15px] mt-[6px]">Medicine</li>
+                <li class="text-[15px] mt-[6px]">Sports & Outdoor</li>
+                <li class="text-[15px] mt-[6px]">Baby’s & Toys</li>
+                <li class="text-[15px] mt-[6px]">Groceries & Pets</li>
+                <li class="text-[15px] mt-[6px]">Health & Beauty</li>
+            </ul>
+        </div>
+
+        <div class=" bg-black w-[650px] h-[60vh] ">
+            <div class="flex justify-center pt-[40px] gap-[4rem]"> 
+                <div class="">
+                <div class=" flex items-center text-white gap-[15px]">
+                    <img src="imgs/apple.png" alt="" class=" h-[40px]">
+                    <p>iPhone 14 Series</p>
+                </div>
+                <h1 class=" text-[2.5rem] text-white font-semibold">Up to 10% <br> off Voucher</h1>
+                <p class=" text-white text-[13px] " >Shop Now<i style="margin-left: 6px;" class="fa-solid fa-arrow-right"></i></p>
+                </div>
+                <img src="imgs/hero.png" alt="" class=" h-[200px]">
+            </div>
+            <img src="imgs/dot.png" alt="" class=" h-[8px] ml-[300px] mt-[30px]">
+        </div>
+
+      </div>
+     <!-- hero page end -->
+     
+
+     <!-- new section 0ne start -->
+      <div class=" mt-[70px] ml-[60px] ">
+        <p class="text-[#DB4444] font-semibold">Today’s</p>
+        <div class=" flex gap-[2rem] items-center">
+            <h1 class="text-[1.5rem] font-semibold">Flash Sales</h1>
+
+            <div class=" flex gap-[1rem] items-center">
+                <div class="">
+                    <p class="text-[13px]">Days</p>
+                    <h1 class="text-[1.4rem] font-semibold">03  <span class="text-[#DB4444] ">:</span></h1>
+                </div>
+                
+                <div class="">
+                    <p class="text-[13px]">Hours</p>
+                    <h1 class="text-[1.4rem] font-semibold">23   <span class="text-[#DB4444] ">:</span></h1>
+                </div>
+
+                <div class="">
+                    <p class="text-[13px]">Minutes</p>
+                    <h1 class="text-[1.4rem] font-semibold">19  <span class="text-[#DB4444] ">:</span></h1>
+                </div>
+
+                <div class="">
+                    <p class="text-[13px]">Seconds</p>
+                    <h1 class="text-[1.4rem] font-semibold">56</h1>
+                </div>
+            </div>
+
+            <div class=" flex gap-[10px] ml-[500px]">
+                <div class="bg-[#F5F5F5] w-[30px] h-[30px] rounded-[50%] items-center text-center pt-[2px] text-[15px]"><i class="fa-solid fa-arrow-left"></i></div>
+                <div class="bg-[#F5F5F5] w-[30px] h-[30px] rounded-[50%] items-center text-center pt-[2px] text-[15px]"><i class="fa-solid fa-arrow-right"></i></div>
+            </div>
+        </div>
+      </div>
+      <!-- new section 0ne end -->
+       <div class=" flex justify-center items-center gap-[3rem] mt-[50px]">
+
+       <div class="">
+        <div class=" bg-[#F5F5F5] w-[170px] h-[35vh] flex justify-center gap-[10px] relative rounded-[4px]">
+            <div class="bg-[#DB4444] w-[50px] h-[20px] absolute rounded-[3px] text-center text-[13px] text-[white] left-[3px] top-[6px]"><p>-40%</p></div>
+            <img src="imgs/img-1.png" alt="" class="h-[110px] mt-[30px]">
+            <div class="">
+                <div class="bg-white w-[30px] h-[30px] items-center pt-[2px] text-[15px] rounded-[50%] pl-[5px] mt-[6px]"><i class="fa-regular fa-heart"></i></div>
+                <div class="bg-white w-[30px] h-[30px] items-center pt-[2px] text-[15px] rounded-[50%] pl-[5px] mt-[6px]"><i class="fa-regular fa-eye"></i></div>
+            </div>
+            
+        </div>
+        <h1 class="text-[13px] font-semibold mt-[10px]">HAVIT HV-G92 Gamepad</h1>
+        <p class="font-semibold text-[#DB4444] mt-[4px]">$120 <span class="text-gray-500 text-[14px] line-through">$160</span></p>
+        <div class="flex items-center gap-[6px] mt-[4px]">
+            <div class=" text-[13px] text-yellow-500">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            </div>
+            <p class="text-gray-500">(88)</p>
+        </div> 
+       </div>
+
+
+
+
+
+       <div class="">
+        <div class=" bg-[#F5F5F5] w-[170px] h-[35vh] rounded-[4px] ">
+            <div class="flex justify-center gap-[10px] relative rounded-[4px]">
+            <div class="bg-[#DB4444] w-[50px] h-[20px] absolute rounded-[3px] text-center text-[13px] text-[white] left-[3px] top-[6px]"><p>-40%</p></div>
+            <img src="imgs/img2.png" alt="" class="h-[60px] mt-[50px]">
+            <div class="">
+                <div class="bg-white w-[30px] h-[30px] items-center pt-[2px] text-[15px] rounded-[50%] pl-[5px] mt-[6px]"><i class="fa-regular fa-heart"></i></div>
+                <div class="bg-white w-[30px] h-[30px] items-center pt-[2px] text-[15px] rounded-[50%] pl-[5px] mt-[6px]"><i class="fa-regular fa-eye"></i></div>
+               
+            </div>
+            </div>
+            <button class=" text-[13px] w-[100%] h-[20%] bg-black text-white rounded-[4px] mt-[30px] ">Add To Cart</button>
+        </div>
+        <h1 class="text-[13px] font-semibold mt-[10px]">AK-900 Wired Keyboard</h1>
+        <p class="font-semibold text-[#DB4444] mt-[4px]">$960 <span class="text-gray-500 text-[14px] line-through">$1160</span></p>
+        <div class="flex items-center gap-[6px] mt-[4px]">
+            <div class=" text-[13px] text-yellow-500">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i style="color: gray;" class="fa-solid fa-star"></i>
+            </div>
+            <p class="text-gray-500">(75)</p>
+        </div> 
+       </div>
+
+
+
+       <div class="">
+        <div class=" bg-[#F5F5F5] w-[170px] h-[35vh] flex justify-center gap-[10px] relative rounded-[4px]">
+            <div class="bg-[#DB4444] w-[50px] h-[20px] absolute rounded-[3px] text-center text-[13px] text-[white] left-[3px] top-[6px]"><p>-40%</p></div>
+            <img src="imgs/img3.png" alt="" class="h-[80px] mt-[50px] ml-[20px]">
+            <div class="">
+                <div class="bg-white w-[30px] h-[30px] items-center pt-[2px] text-[15px] rounded-[50%] pl-[5px] mt-[6px]"><i class="fa-regular fa-heart"></i></div>
+                <div class="bg-white w-[30px] h-[30px] items-center pt-[2px] text-[15px] rounded-[50%] pl-[5px] mt-[6px]"><i class="fa-regular fa-eye"></i></div>
+            </div>
+            
+        </div>
+        <h1 class="text-[13px] font-semibold mt-[10px]">IPS LCD Gaming Monitor</h1>
+        <p class="font-semibold text-[#DB4444] mt-[4px]">$370 <span class="text-gray-500 text-[14px] line-through">$400</span></p>
+        <div class="flex items-center gap-[6px] mt-[4px]">
+            <div class=" text-[13px] text-yellow-500">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            </div>
+            <p class="text-gray-500">(99)</p>
+        </div> 
+       </div>
+
+
+
+
+       <div class="">
+        <div class=" bg-[#F5F5F5] w-[170px] h-[35vh] flex justify-center gap-[10px] relative rounded-[4px]">
+            <div class="bg-[#DB4444] w-[50px] h-[20px] absolute rounded-[3px] text-center text-[13px] text-[white] left-[3px] top-[6px]"><p>-40%</p></div>
+            <img src="imgs/img4.png" alt="" class="h-[110px] mt-[30px] ml-[30px]">
+            <div class="">
+                <div class="bg-white w-[30px] h-[30px] items-center pt-[2px] text-[15px] rounded-[50%] pl-[5px] mt-[6px]"><i class="fa-regular fa-heart"></i></div>
+                <div class="bg-white w-[30px] h-[30px] items-center pt-[2px] text-[15px] rounded-[50%] pl-[5px] mt-[6px]"><i class="fa-regular fa-eye"></i></div>
+            </div>
+            
+        </div>
+        <h1 class="text-[13px] font-semibold mt-[10px]">S-Series Comfort Chair </h1>
+        <p class="font-semibold text-[#DB4444] mt-[4px]">$375 <span class="text-gray-500 text-[14px] line-through">$400</span></p>
+        <div class="flex items-center gap-[6px] mt-[4px]">
+            <div class=" text-[13px] text-yellow-500">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i style="color: gray;" class="fa-solid fa-star"></i>
+            </div>
+            <p class="text-gray-500">(75)</p>
+        </div> 
+       </div>
+
+       </div>
+
+
+
+
+
+
+       <div class=" flex justify-center mt-[60px]">
+        <button class=" bg-[#DB4444] w-[170px] h-[40px] text-white rounded-[3px]">View All Products</button>
+       </div>
+
+
+
+
+
+
+
+
+
+       <div class=" mt-[70px] ml-[60px] ">
+        
+        <div class=" flex gap-[2rem] items-center justify-center ">
+            <div class="">
+            <p class="text-[#DB4444] font-semibold">Categories</p>
+            <h1 class="text-[1.5rem] font-semibold">Browse By Category</h1>
+            </div>
+            
+
+            <div class=" flex gap-[10px] ml-[500px]">
+                <div class="bg-[#F5F5F5] w-[30px] h-[30px] rounded-[50%] items-center text-center pt-[2px] text-[15px]"><i class="fa-solid fa-arrow-left"></i></div>
+                <div class="bg-[#F5F5F5] w-[30px] h-[30px] rounded-[50%] items-center text-center pt-[2px] text-[15px]"><i class="fa-solid fa-arrow-right"></i></div>
+            </div>
+        </div>
+      </div>
+
+
+
+      <div class=" flex justify-center gap-[1rem] mt-[30px]">
+
+        <div class=" bg-white border-solid border-[1px] border-gray-200 w-[120px] h-[100px] text-center rounded-[3px]">
+            <img src="imgs/phone.png" alt="" class="ml-[40px] mt-[20px] h-[40px]">
+            <p class="text-[16px]">Phones</p>
+        </div>
+
+        <div class=" bg-white border-solid border-[1px] border-gray-200 w-[120px] h-[100px] text-center rounded-[3px]">
+            <img src="imgs/computer.png" alt="" class="ml-[40px] mt-[20px] h-[40px]">
+            <p class="text-[16px]">Computers</p>
+        </div>
+
+
+        <div class=" bg-white border-solid border-[1px] border-gray-200 w-[120px] h-[100px] text-center rounded-[3px]">
+            <img src="imgs/watch.png" alt="" class="ml-[40px] mt-[20px] h-[40px]">
+            <p class="text-[16px]">SmartWatch</p>
+        </div>
+
+
+        <div class=" bg-[#DB4444] text-white  w-[120px] h-[100px] text-center rounded-[3px]">
+            <img src="imgs/camera.png" alt="" class="ml-[40px] mt-[20px] h-[40px]">
+            <p class="text-[16px]">Camera</p>
+        </div>
+
+
+        <div class=" bg-white border-solid border-[1px] border-gray-200 w-[120px] h-[100px] text-center rounded-[3px]">
+            <img src="imgs/headphones.png" alt="" class="ml-[40px] mt-[20px] h-[40px]">
+            <p class="text-[16px]">HeadPhones</p>
+        </div>
+
+
+        <div class=" bg-white border-solid border-[1px] border-gray-200 w-[120px] h-[100px] text-center rounded-[3px]">
+            <img src="imgs/game.png" alt="" class="ml-[40px] mt-[20px] h-[40px]">
+            <p class="text-[16px]">Gaming</p>
+        </div>
+
+      </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+       <div class=" mt-[100px] ml-[20px] ">
+        
+        <div class=" flex gap-[2.5rem] items-center justify-center ">
+            <div class="">
+            <p class="text-[#DB4444] font-semibold">Categories</p>
+            <h1 class="text-[1.5rem] font-semibold">Browse By Category</h1>
+            </div>
+            
+
+            <div class="  ml-[500px]">
+                <button class="bg-[#DB4444] w-[80px] h-[35px] text-white rounded-[2px]">View All</button>
+            </div>
+        </div>
+      </div>
+
+
+
+
+
+
+
+
+      <div class=" flex justify-center items-center gap-[3rem] mt-[50px]">
+
+       <div class="">
+        <div class=" bg-[#F5F5F5] w-[170px] h-[35vh] flex justify-center gap-[10px] relative rounded-[4px]">
+            <!-- <div class="bg-[#DB4444] w-[50px] h-[20px] absolute rounded-[3px] text-center text-[13px] text-[white] left-[3px] top-[6px]"><p>-40%</p></div> -->
+            <img src="imgs/img5.png" alt="" class="h-[110px] mt-[30px] ">
+            <div class="">
+                <div class="bg-white w-[30px] h-[30px] items-center pt-[2px] text-[15px] rounded-[50%] pl-[5px] mt-[6px]"><i class="fa-regular fa-heart"></i></div>
+                <div class="bg-white w-[30px] h-[30px] items-center pt-[2px] text-[15px] rounded-[50%] pl-[5px] mt-[6px]"><i class="fa-regular fa-eye"></i></div>
+            </div>
+            
+        </div>
+        <h1 class="text-[13px] font-semibold mt-[10px]">The north coat</h1>
+        <p class="font-semibold text-[#DB4444] mt-[4px]">$260 <span class="text-gray-500 text-[14px] line-through">$360</span></p>
+        <div class="flex items-center gap-[6px] mt-[4px]">
+            <div class=" text-[13px] text-yellow-500">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            </div>
+            <p class="text-gray-500">(65)</p>
+        </div> 
+       </div>
+
+
+
+
+
+       <div class="">
+        <div class=" bg-[#F5F5F5] w-[170px] h-[35vh] flex justify-center gap-[10px] relative rounded-[4px]">
+            <!-- <div class="bg-[#DB4444] w-[50px] h-[20px] absolute rounded-[3px] text-center text-[13px] text-[white] left-[3px] top-[6px]"><p>-40%</p></div> -->
+            <img src="imgs/img6.png" alt="" class="h-[80px] mt-[50px] ml-[20px]">
+            <div class="">
+                <div class="bg-white w-[30px] h-[30px] items-center pt-[2px] text-[15px] rounded-[50%] pl-[5px] mt-[6px]"><i class="fa-regular fa-heart"></i></div>
+                <div class="bg-white w-[30px] h-[30px] items-center pt-[2px] text-[15px] rounded-[50%] pl-[5px] mt-[6px]"><i class="fa-regular fa-eye"></i></div>
+            </div>
+            
+        </div>
+        <h1 class="text-[13px] font-semibold mt-[10px]">Gucci duffle bag</h1>
+        <p class="font-semibold text-[#DB4444] mt-[4px]">$960 <span class="text-gray-500 text-[14px] line-through">$1160</span></p>
+        <div class="flex items-center gap-[6px] mt-[4px]">
+            <div class=" text-[13px] text-yellow-500">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            </div>
+            <p class="text-gray-500">(99)</p>
+        </div> 
+       </div>
+
+
+
+
+       
+
+
+
+       <div class="">
+        <div class=" bg-[#F5F5F5] w-[170px] h-[35vh] flex justify-center gap-[10px] relative rounded-[4px]">
+            <!-- <div class="bg-[#DB4444] w-[50px] h-[20px] absolute rounded-[3px] text-center text-[13px] text-[white] left-[3px] top-[6px]"><p>-40%</p></div> -->
+            <img src="imgs/img7.png" alt="" class="h-[80px] mt-[50px] ml-[20px]">
+            <div class="">
+                <div class="bg-white w-[30px] h-[30px] items-center pt-[2px] text-[15px] rounded-[50%] pl-[5px] mt-[6px]"><i class="fa-regular fa-heart"></i></div>
+                <div class="bg-white w-[30px] h-[30px] items-center pt-[2px] text-[15px] rounded-[50%] pl-[5px] mt-[6px]"><i class="fa-regular fa-eye"></i></div>
+            </div>
+            
+        </div>
+        <h1 class="text-[13px] font-semibold mt-[10px]">RGB liquid CPU Cooler</h1>
+        <p class="font-semibold text-[#DB4444] mt-[4px]">$160 <span class="text-gray-500 text-[14px] line-through">$170</span></p>
+        <div class="flex items-center gap-[6px] mt-[4px]">
+            <div class=" text-[13px] text-yellow-500">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            </div>
+            <p class="text-gray-500">(99)</p>
+        </div> 
+       </div>
+
+
+
+
+       <div class="">
+        <div class=" bg-[#F5F5F5] w-[170px] h-[35vh] flex justify-center gap-[10px] relative rounded-[4px]">
+            <!-- <div class="bg-[#DB4444] w-[50px] h-[20px] absolute rounded-[3px] text-center text-[13px] text-[white] left-[3px] top-[6px]"><p>-40%</p></div> -->
+            <img src="imgs/img8.png" alt="" class="h-[110px] mt-[30px] ml-[10px]">
+            <div class="">
+                <div class="bg-white w-[30px] h-[30px] items-center pt-[2px] text-[15px] rounded-[50%] pl-[5px] mt-[6px]"><i class="fa-regular fa-heart"></i></div>
+                <div class="bg-white w-[30px] h-[30px] items-center pt-[2px] text-[15px] rounded-[50%] pl-[5px] mt-[6px]"><i class="fa-regular fa-eye"></i></div>
+            </div>
+            
+        </div>
+        <h1 class="text-[13px] font-semibold mt-[10px]">Small BookSelf </h1>
+        <p class="font-semibold text-[#DB4444] mt-[4px]">$360 </p>
+        <div class="flex items-center gap-[6px] mt-[4px]">
+            <div class=" text-[13px] text-yellow-500">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i style="color: gray;" class="fa-solid fa-star"></i>
+            </div>
+            <p class="text-gray-500">(75)</p>
+        </div> 
+       </div>
+
+       </div>
+
+
+       <div class="bg-black w-[80%] h-[60vh] ml-[120px] mt-[70px] flex  justify-center gap-[9rem]">
+        <div class=" mt-[50px]">
+            <p class=" text-[#00FF66] text-[13px] font-semibold">Categories</p>
+            <h1 class=" text-[2rem] font-semibold text-white">Enhance Your <br> Music Experience</h1>
+            
+            <div class=" flex gap-[10px] items-center mt-[10px]">
+                <div class="bg-white w-[50px] h-[50px] rounded-[50%] text-center" style="line-height: 17px;">
+                    <p class=" font-semibold pt-[5px]">23</p>
+                    <p class=" text-[12px]">Hours</p>
+                    
+                </div>
+                
+                <div class="bg-white w-[50px] h-[50px] rounded-[50%] text-center" style="line-height: 17px;">
+                    <p class=" font-semibold pt-[5px]">05</p>
+                    <p class=" text-[12px]">Days</p>
+                    
+                </div>
+
+                <div class="bg-white w-[50px] h-[50px] rounded-[50%] text-center" style="line-height: 17px;">
+                    <p class=" font-semibold pt-[5px]">59</p>
+                    <p class=" text-[12px]">Minutes</p>
+                    
+                </div>
+
+                <div class="bg-white w-[50px] h-[50px] rounded-[50%] text-center" style="line-height: 17px;">
+                    <p class=" font-semibold pt-[5px]">35</p>
+                    <p class=" text-[12px]">Seconds</p>
+                    
+                </div>
+            </div>
+            <br>
+
+            <button class="text-white bg-[#00FF66] w-[100px] h-[40px] rounded-[3px]">Buy Now!</button>
+        </div>
+
+        <div class="">
+            <img src="imgs/music.png" alt="" class=" h-[250px] mt-[50px]">
+        </div>
+       </div>
+
+
+
+
+
+
+        <div class=" mt-[70px] ml-[30px] ">
+        
+        <div class=" flex gap-[2rem] items-center justify-center ">
+            <div class="">
+            <p class="text-[#DB4444] font-semibold">Categories</p>
+            <h1 class="text-[1.5rem] font-semibold">Explore Our Products</h1>
+            </div>
+            
+
+            <div class=" flex gap-[10px] ml-[500px]">
+                <div class="bg-[#F5F5F5] w-[30px] h-[30px] rounded-[50%] items-center text-center pt-[2px] text-[15px]"><i class="fa-solid fa-arrow-left"></i></div>
+                <div class="bg-[#F5F5F5] w-[30px] h-[30px] rounded-[50%] items-center text-center pt-[2px] text-[15px]"><i class="fa-solid fa-arrow-right"></i></div>
+            </div>
+        </div>
+      </div>
+
+
+
+      <div class=" flex justify-center items-center gap-[3rem] mt-[50px]">
+
+       <div class="">
+        <div class=" bg-[#F5F5F5] w-[170px] h-[35vh] flex justify-center gap-[10px] relative rounded-[4px]">
+            <!-- <div class="bg-[#DB4444] w-[50px] h-[20px] absolute rounded-[3px] text-center text-[13px] text-[white] left-[3px] top-[6px]"><p>-40%</p></div> -->
+            <img src="imgs/img9.png" alt="" class="h-[110px] mt-[30px]">
+            <div class="">
+                <div class="bg-white w-[30px] h-[30px] items-center pt-[2px] text-[15px] rounded-[50%] pl-[5px] mt-[6px]"><i class="fa-regular fa-heart"></i></div>
+                <div class="bg-white w-[30px] h-[30px] items-center pt-[2px] text-[15px] rounded-[50%] pl-[5px] mt-[6px]"><i class="fa-regular fa-eye"></i></div>
+            </div>
+            
+        </div>
+        <h1 class="text-[13px] font-semibold mt-[10px]">Breed Dry Dog Food</h1>
+        
+        <div class="flex items-center gap-[6px] mt-[4px]">
+            <p class="font-semibold text-[#DB4444] ">$100 </p>
+            <div class=" text-[13px] text-yellow-500">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            </div>
+            <p class="text-gray-500">(88)</p>
+        </div> 
+       </div>
+
+
+
+
+
+       <div class="">
+        <div class=" bg-[#F5F5F5] w-[170px] h-[35vh] flex justify-center gap-[10px] relative rounded-[4px]">
+            <!-- <div class="bg-[#DB4444] w-[50px] h-[20px] absolute rounded-[3px] text-center text-[13px] text-[white] left-[3px] top-[6px]"><p>-40%</p></div> -->
+            <img src="imgs/img10.png" alt="" class="h-[110px] mt-[30px]">
+            <div class="">
+                <div class="bg-white w-[30px] h-[30px] items-center pt-[2px] text-[15px] rounded-[50%] pl-[5px] mt-[6px]"><i class="fa-regular fa-heart"></i></div>
+                <div class="bg-white w-[30px] h-[30px] items-center pt-[2px] text-[15px] rounded-[50%] pl-[5px] mt-[6px]"><i class="fa-regular fa-eye"></i></div>
+            </div>
+            
+        </div>
+        <h1 class="text-[13px] font-semibold mt-[10px]">CANON EOS DSLR Camera</h1>
+        
+        <div class="flex items-center gap-[6px] mt-[4px]">
+            <p class="font-semibold text-[#DB4444] ">$360 </p>
+            <div class=" text-[13px] text-yellow-500">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            </div>
+            <p class="text-gray-500">(88)</p>
+        </div> 
+       </div>
+
+
+
+       <div class="">
+        <div class=" bg-[#F5F5F5] w-[170px] h-[35vh] flex justify-center gap-[10px] relative rounded-[4px]">
+            <!-- <div class="bg-[#DB4444] w-[50px] h-[20px] absolute rounded-[3px] text-center text-[13px] text-[white] left-[3px] top-[6px]"><p>-40%</p></div> -->
+            <img src="imgs/img11.png" alt="" class="h-[110px] mt-[30px]">
+            <div class="">
+                <div class="bg-white w-[30px] h-[30px] items-center pt-[2px] text-[15px] rounded-[50%] pl-[5px] mt-[6px]"><i class="fa-regular fa-heart"></i></div>
+                <div class="bg-white w-[30px] h-[30px] items-center pt-[2px] text-[15px] rounded-[50%] pl-[5px] mt-[6px]"><i class="fa-regular fa-eye"></i></div>
+            </div>
+            
+        </div>
+        <h1 class="text-[13px] font-semibold mt-[10px]">ASUS FHD Gaming Laptop</h1>
+        
+        <div class="flex items-center gap-[6px] mt-[4px]">
+            <p class="font-semibold text-[#DB4444] ">$700</p>
+            <div class=" text-[13px] text-yellow-500">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            </div>
+            <p class="text-gray-500">(88)</p>
+        </div> 
+       </div>
+
+
+
+
+<div class="">
+        <div class=" bg-[#F5F5F5] w-[170px] h-[35vh] flex justify-center gap-[10px] relative rounded-[4px]">
+            <!-- <div class="bg-[#DB4444] w-[50px] h-[20px] absolute rounded-[3px] text-center text-[13px] text-[white] left-[3px] top-[6px]"><p>-40%</p></div> -->
+            <img src="imgs/img4.png" alt="" class="h-[110px] ml-[30px] mt-[30px]">
+            <div class="">
+                <div class="bg-white w-[30px] h-[30px] items-center pt-[2px] text-[15px] rounded-[50%] pl-[5px] mt-[6px]"><i class="fa-regular fa-heart"></i></div>
+                <div class="bg-white w-[30px] h-[30px] items-center pt-[2px] text-[15px] rounded-[50%] pl-[5px] mt-[6px]"><i class="fa-regular fa-eye"></i></div>
+            </div>
+            
+        </div>
+        <h1 class="text-[13px] font-semibold mt-[10px]">Small BookSelf</h1>
+        
+        <div class="flex items-center gap-[6px] mt-[4px]">
+            <p class="font-semibold text-[#DB4444] ">$360</p>
+            <div class=" text-[13px] text-yellow-500">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            </div>
+            <p class="text-gray-500">(88)</p>
+        </div> 
+       </div>
+
+       </div>
+
+
+       <div class=" flex justify-center items-center gap-[3rem] mt-[50px]">
+
+       <div class="">
+        <div class=" bg-[#F5F5F5] w-[170px] h-[35vh] flex justify-center gap-[10px] relative rounded-[4px]">
+            <div class="bg-[#00FF66] w-[50px] h-[20px] absolute rounded-[3px] text-center text-[13px] text-[white] left-[3px] top-[6px]"><p>New</p></div>
+            <img src="imgs/img13.png" alt="" class="h-[110px] mt-[30px]">
+            <div class="">
+                <div class="bg-white w-[30px] h-[30px] items-center pt-[2px] text-[15px] rounded-[50%] pl-[5px] mt-[6px]"><i class="fa-regular fa-heart"></i></div>
+                <div class="bg-white w-[30px] h-[30px] items-center pt-[2px] text-[15px] rounded-[50%] pl-[5px] mt-[6px]"><i class="fa-regular fa-eye"></i></div>
+            </div>
+            
+        </div>
+        <h1 class="text-[13px] font-semibold mt-[10px]">Kids Electric Car</h1>
+        
+        <div class="flex items-center gap-[6px] mt-[4px]">
+            <p class="font-semibold text-[#DB4444] ">$960</p>
+            <div class=" text-[13px] text-yellow-500">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            </div>
+            <p class="text-gray-500">(88)</p>
+        </div> 
+        <div class="flex items-center gap-[5px]">
+            <div class=" bg-[#FB1314] w-[15px] h-[15px] rounded-[50%]  border-solid border-[2px] "></div>
+            <div class=" bg-[#DB4444] w-[13px] h-[13px] rounded-[50%]  "></div>
+        </div>
+       </div>
+
+
+
+
+
+       <div class="">
+        <div class=" bg-[#F5F5F5] w-[170px] h-[35vh] flex justify-center gap-[10px] relative rounded-[4px]">
+            <!-- <div class="bg-[#DB4444] w-[50px] h-[20px] absolute rounded-[3px] text-center text-[13px] text-[white] left-[3px] top-[6px]"><p>-40%</p></div> -->
+            <img src="imgs/img14.png" alt="" class="h-[100px] mt-[30px]">
+            <div class="">
+                <div class="bg-white w-[30px] h-[30px] items-center pt-[2px] text-[15px] rounded-[50%] pl-[5px] mt-[6px]"><i class="fa-regular fa-heart"></i></div>
+                <div class="bg-white w-[30px] h-[30px] items-center pt-[2px] text-[15px] rounded-[50%] pl-[5px] mt-[6px]"><i class="fa-regular fa-eye"></i></div>
+            </div>
+            
+        </div>
+        <h1 class="text-[13px] font-semibold mt-[10px]">Jr. Zoom Soccer Cleats</h1>
+        
+        <div class="flex items-center gap-[6px] mt-[4px]">
+            <p class="font-semibold text-[#DB4444] ">$1160</p>
+            <div class=" text-[13px] text-yellow-500">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            </div>
+            <p class="text-gray-500">(88)</p>
+        </div> 
+        <div class="flex items-center gap-[5px]">
+            <div class=" bg-[#EEFF61] w-[15px] h-[15px] rounded-[50%]  border-solid border-[2px] "></div>
+            <div class=" bg-[#DB4444] w-[13px] h-[13px] rounded-[50%]  "></div>
+        </div>
+       </div>
+
+
+
+       <div class="">
+        <div class=" bg-[#F5F5F5] w-[170px] h-[35vh] flex justify-center gap-[10px] relative rounded-[4px]">
+            <div class="bg-[#DB4444] w-[50px] h-[20px] absolute rounded-[3px] text-center text-[13px] text-[white] left-[3px] top-[6px]"><p>-40%</p></div>
+            <img src="imgs/img15.png" alt="" class="h-[110px] mt-[30px]">
+            <div class="">
+                <div class="bg-white w-[30px] h-[30px] items-center pt-[2px] text-[15px] rounded-[50%] pl-[5px] mt-[6px]"><i class="fa-regular fa-heart"></i></div>
+                <div class="bg-white w-[30px] h-[30px] items-center pt-[2px] text-[15px] rounded-[50%] pl-[5px] mt-[6px]"><i class="fa-regular fa-eye"></i></div>
+            </div>
+            
+        </div>
+        <h1 class="text-[13px] font-semibold mt-[10px]">ASUS FHD Gaming Laptop</h1>
+        
+        <div class="flex items-center gap-[6px] mt-[4px]">
+            <p class="font-semibold text-[#DB4444] ">$660</p>
+            <div class=" text-[13px] text-yellow-500">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            </div>
+            <p class="text-gray-500">(88)</p>
+        </div> 
+        <div class="flex items-center gap-[5px]">
+            <div class=" bg-gray-800 w-[15px] h-[15px] rounded-[50%]  border-solid border-[2px] "></div>
+            <div class=" bg-[#DB4444] w-[13px] h-[13px] rounded-[50%]  "></div>
+        </div>
+       </div>
+
+
+
+
+<div class="">
+        <div class=" bg-[#F5F5F5] w-[170px] h-[35vh] flex justify-center gap-[10px] relative rounded-[4px]">
+            <div class="bg-[#DB4444] w-[50px] h-[20px] absolute rounded-[3px] text-center text-[13px] text-[white] left-[3px] top-[6px]"><p>-40%</p></div>
+            <img src="imgs/img16.png" alt="" class="h-[110px] ml-[30px] mt-[30px]">
+            <div class="">
+                <div class="bg-white w-[30px] h-[30px] items-center pt-[2px] text-[15px] rounded-[50%] pl-[5px] mt-[6px]"><i class="fa-regular fa-heart"></i></div>
+                <div class="bg-white w-[30px] h-[30px] items-center pt-[2px] text-[15px] rounded-[50%] pl-[5px] mt-[6px]"><i class="fa-regular fa-eye"></i></div>
+            </div>
+            
+        </div>
+        <h1 class="text-[13px] font-semibold mt-[10px]">Quilted Satin Jacket</h1>
+        
+        <div class="flex items-center gap-[6px] mt-[4px]">
+            <p class="font-semibold text-[#DB4444] ">$660</p>
+            <div class=" text-[13px] text-yellow-500">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            </div>
+            <p class="text-gray-500">(88)</p>
+        </div> 
+              
+       <div class="flex items-center gap-[5px]">
+            <div class=" bg-[#184A48] w-[15px] h-[15px] rounded-[50%]  border-solid border-[2px] "></div>
+            <div class=" bg-[#DB4444] w-[13px] h-[13px] rounded-[50%]  "></div>
+        </div>
+
+       </div>
+       </div>
+
+       <div class="  flex justify-center mt-[50px]">
+                <button class="bg-[#DB4444] w-[170px] h-[35px] text-white rounded-[2px]">View All Products</button>
+            </div>
+
+
+
+
+            
+
+            <div class=" mt-[70px] ml-[50px] ">
+        
+        <div class=" flex gap-[2rem] items-center justify-start ml-[100px] ">
+            <div class="">
+            <p class="text-[#DB4444] font-semibold">Categories</p>
+            <h1 class="text-[1.5rem] font-semibold">Explore Our Products</h1>
+            </div>
+            
+
+            
+        </div>
+      </div>
+
+
+
+
+
+<div class=" flex gap-[10px] justify-center mt-[40px]">
+    <div class="ps5">
+        <h1 class=" text-[1.5rem] font-semibold pt-[270px] pl-[30px]">PlayStation 5</h1>
+        <p class="text-[13px] mt-[6px] pl-[30px]">Black and White version of the PS5 <br> coming out on sale.</p>
+        <a class="pl-[30px] mt-[10px]" href="">Shop Now</a>
+    </div>
+
+
+    <div class="">
+    <div class="Women">
+        <h1 class="text-[1.5rem] font-semibold pt-[100px] pl-[10px]">Women’s Collections</h1>
+        <p class=" pl-[10px] text-[13px] mt-[6px]">Featured woman collections that <br> give you another vibe.</p>
+        <a class=" pl-[10px] mt-[10px]" href="">Shop Now</a>
+    </div>  
+    <div class=" flex gap-[10px] mt-[10px]">
+    <div class="spker">
+        <h1 class="text-[1rem] font-semibold pt-[60px] pl-[30px]">Speakers</h1>
+        <p class="text-[10px] pl-[30px]">Amazon wireless speakers</p>
+        <a class=" pl-[30px] mt-[10px]" href="">Shop Now</a>
+    </div>
+
+
+    <div class="perfome">
+        <h1 class="text-[1rem] font-semibold pt-[60px] pl-[30px]">Perfume</h1>
+        <p class="text-[10px] pl-[30px]">GUCCI INTENSE OUD EDP</p>
+        <a class=" pl-[30px] mt-[10px]" href="">Shop Now</a>
+    </div>
+    </div>
+</div>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class=" flex justify-center text-center gap-[80px] mt-[40px]">
+    <div class="">
+        <i style="font-size: 30px;" class="fa-regular fa-truck"></i> 
+        <h1 class=" text-[1rem] font-semibold mt-[7px]">FREE AND FAST DELIVERY</h1>
+        <p class=" text-[13px]">Free delivery for all orders over $140</p>
+    </div>
+    <div class="">
+        <i style="font-size: 30px;" class="fa-solid fa-headset"></i>
+        <h1 class=" text-[1rem] font-semibold mt-[7px]">24/7 CUSTOMER SERVICE</h1>
+        <p class=" text-[13px]">Friendly 24/7 customer support</p>
+    </div>
+    <div class="">
+        <i style="font-size: 30px;" class="fa-solid fa-check-to-slot"></i>
+        <h1 class=" text-[1rem] font-semibold mt-[7px]">MONEY BACK GUARANTEE</h1>
+        <p class=" text-[13px]">We reurn money within 30 days</p>
+    </div>
+</div>
+
+
+<div class=" bg-[#F5F5F5] w-[50px] h-[50px] rounded-[50%] text-[20px] pt-[8px] pl-[13px] ml-[1000px] mt-[40px]">
+    <i class="fa-solid fa-arrow-up"></i>
+</div>
+
+
+     <footer class="bg-black w-[100%] h-[70vh] text-white flex justify-around pt-[100px] mt-[40px]" >
+        <div class="">
+            <h1 class="text-[1.4rem] font-semibold">QuickMart</h1>
+            <h2 class="font-semibold mt-[10px]">Subscribe</h2>
+            <p class="text-[13px] mt-[5px]">Get 10% off your first order</p>
+            <input class=" border-[1px] border-solid border-white mt-[5px] " type="email" placeholder="Enter You Email">
+        </div>
+
+
+        <div class="">
+            <h1 class=" text-[1rem] font-semibold">Support</h1>
+            <p class="text-[13px]">23 Glaisdale Road , Bristol, <br>  BS16 2HY, United Kingdom</p>
+            <p class="text-[13px] mt-[5px]">musabmusa27@gmail.com</p>
+            <p class="text-[13px] mt-[5px]">+447459880877</p>
+        </div>
+
+
+        <div class="">
+            <h1 class=" text-[1rem] font-semibold">Account</h1>
+            <p class="text-[13px] mt-[5px]">My Account</p>
+            <p class="text-[13px] mt-[5px]">Login / Register</p>
+            <p class="text-[13px] mt-[5px]">Cart</p>
+            <p class="text-[13px] mt-[5px]">Wishlist</p>
+            <p class="text-[13px] mt-[5px]">Shop</p>
+        </div>
+
+
+
+
+        <div class="">
+            <h1 class=" text-[1rem] font-semibold">Quick Link</h1>
+            <p class="text-[13px] mt-[5px]">Privacy Policy</p>
+            <p class="text-[13px] mt-[5px]">Terms Of Use</p>
+            <p class="text-[13px] mt-[5px]">FAQ</p>
+            <p class="text-[13px] mt-[5px]">Contact</p>
+            
+        </div>
+
+
+
+        <div class="">
+            <h1 class=" text-[1rem] font-semibold">Download App</h1>
+            <p class="text-[13px] mt-[5px]">Save $3 with App New User Only</p>
+            <div class=" flex items-center mt-[10px]">
+                <img src="imgs/qrcode.png" alt="" class=" h-[70px]">
+                <div class="">
+                    <img src="imgs/AppStore.png" alt="" class=" h-[40px]">
+                    <img src="imgs/GooglePlay.png" alt="" class=" h-[40px]">
+                    
+                </div>
+                
+            </div>
+            <div class="">
+                        <i class="fa-brands fa-facebook-f"></i>
+                        <i class="fa-brands fa-snapchat"></i>
+                        <i class="fa-brands fa-twitter"></i>
+                        <i class="fa-brands fa-instagram"></i>
+                    </div>
+        </div>
+     </footer>
+
 </body>
 </html>
